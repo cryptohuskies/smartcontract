@@ -30,8 +30,8 @@ contract PuppyCreator is ERC721, SupportsInterfaceWithLookup, ERC721TokenReceive
     uint public askSiringCounter = 0;
     uint vitalUnit = 1000000000000;
     
-    bytes4 private constant InterfaceId_ERC721 = 0x80ac58cd;
-    bytes4 private constant InterfaceId_ERC721Exists = 0x4f558e79;
+    bytes4 private constant InterfaceId_ERC721 = ...;
+    bytes4 private constant InterfaceId_ERC721Exists = ...;
     
     constructor() public payable {
         contrOwner = msg.sender;
